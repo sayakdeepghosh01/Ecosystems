@@ -2,31 +2,97 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0; /* Light gray background */
 }
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+
+header {
+    background-color: #339933; /* Dark green header */
+    color: #fff; /* White text */
     padding: 20px;
+    text-align: center;
 }
-.who-we-are,
-.vision,
-.earth {
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
+
+.title {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 50px;
+}
+
+.about-section {
+    margin-bottom: 50px;
     border-radius: 5px;
+    background-color: #fff; /* White section background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
 }
-.member {
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
 }
-.member img {
-    width: 100px;
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin-right: 20px;
 }
-.social-media a {
-    display: inline-block;
-    margin-right: 10px;
+
+.team-member p {
+    margin-bottom: 10px;
 }
+
+
+
+#our-vision,
+#our-mother-earth {
+    /* Styling for "Our Vision" and "Our Mother Earth" sections */
+    background-color: rgba(54, 137, 24, 0.671);; /* Light blue background */
+    color: #333; /* Dark text */
+}
+
+#our-mother-earth {
+    /* Additional styling for "Our Mother Earth" section */
+    /* background-image: url("images/earth2.jpg");   Replace with your Earth image */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Ensure image covers the entire section */
+    background-color: #68442d;
+    color: #050505; /* White text for better visibility over image */
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+    padding-top: 25px;
+}
+.fa {
+    font-size: 20px;
+   
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+   .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-twitter {
+    background: #0b0b0b;
+    color: white;
+  }    
+  .fa-linkedin {
+    background: #000000;
+    color: white;
+  }
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+  
